@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Module 1 Oral Test</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Module 1 Oral Test</h1>
+        <p id="current-date"></p>
+        <p>Student Name: Ho Nguyen Hoang nam</p>
+    </header>
+
+    <main>
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Search by title...">
+            <label for="posts-per-page">Items per page:</label>
+            <select id="posts-per-page">
+                <option value="5">5</option>
+                <option value="10" selected>10</option>
+                <option value="20">20</option>
+            </select>
+        </div>
+
+        <div id="posts-container" class="posts-grid">
+            <p>Loading ...</p>
+        </div>
+
+        <div class="pagination">
+            <button id="prev-page" disabled>Previous</button>
+            <span id="page-info">Page 1 of X</span>
+            <button id="next-page" disabled>Next</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Demo Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
